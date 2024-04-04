@@ -5,9 +5,15 @@ inhibit_all_warnings!
 
 target 'JetDevsHomeWork' do
   pod 'RxSwift', '~> 5.1.0'
+  pod 'RxCocoa', '~> 5.1.0'
   pod 'SwiftLint'
   pod 'Kingfisher', '~> 7.11.0'
   pod 'SnapKit'
+  pod 'Alamofire'
+  pod 'Moya'
+  pod 'SwiftyJSON'
+  pod 'ReachabilitySwift'
+  pod 'SVProgressHUD'
 
   target 'JetDevsHomeWorkTests' do
     inherit! :search_paths

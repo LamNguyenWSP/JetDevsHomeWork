@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -42,6 +42,19 @@
 		9EC6505DC386FCB04480F4BB /* Pods_JetDevsHomeWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00AF71BC0DB1CFCDB921924 /* Pods_JetDevsHomeWork.framework */; };
 		9FBC8F0B168679446BE08275 /* Pods_JetDevsHomeWorkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E168756431AD9B671DACC28B /* Pods_JetDevsHomeWorkTests.framework */; };
 		DD9CD5C395D5FAE03F59B68E /* Pods_JetDevsHomeWork_JetDevsHomeWorkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FFF8B3EB514C818C31135B /* Pods_JetDevsHomeWork_JetDevsHomeWorkUITests.framework */; };
+		DE7408232BBECB0B00DA2179 /* String+JetDevs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7408222BBECB0B00DA2179 /* String+JetDevs.swift */; };
+		DE7408252BBECD8000DA2179 /* UIViewController+JetDevs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7408242BBECD8000DA2179 /* UIViewController+JetDevs.swift */; };
+		DEB38FC32BBEC41C00118E1C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB38FC12BBEC41C00118E1C /* LoginViewController.swift */; };
+		DEB38FC42BBEC41C00118E1C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB38FC22BBEC41C00118E1C /* LoginViewController.xib */; };
+		DEB38FC62BBEC44300118E1C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB38FC52BBEC44300118E1C /* LoginViewModel.swift */; };
+		DEB38FC82BBEC59500118E1C /* LoginFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB38FC72BBEC59500118E1C /* LoginFormField.swift */; };
+		DEBA53F42BBF20ED006CDF7C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA53F32BBF20ED006CDF7C /* UserService.swift */; };
+		DEBA53F62BBF243B006CDF7C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA53F52BBF243B006CDF7C /* AccountViewModel.swift */; };
+		DEBA53F82BBF28A9006CDF7C /* Date+JetDevs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA53F72BBF28A9006CDF7C /* Date+JetDevs.swift */; };
+		DEF8E2242BBEF92900B4A7B6 /* UIColor+JetDevs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8E2232BBEF92900B4A7B6 /* UIColor+JetDevs.swift */; };
+		DEF8E2382BBF09C000B4A7B6 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8E2372BBF09C000B4A7B6 /* AuthRepository.swift */; };
+		DEF8E23B2BBF0A0500B4A7B6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8E23A2BBF0A0500B4A7B6 /* AuthService.swift */; };
+		DEF8E23D2BBF0B0F00B4A7B6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8E23C2BBF0B0F00B4A7B6 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +119,19 @@
 		B2FFF8B3EB514C818C31135B /* Pods_JetDevsHomeWork_JetDevsHomeWorkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetDevsHomeWork_JetDevsHomeWorkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EC5ABA8B83EB7FC725CD65 /* Pods-JetDevsHomeWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetDevsHomeWorkTests.release.xcconfig"; path = "Target Support Files/Pods-JetDevsHomeWorkTests/Pods-JetDevsHomeWorkTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB6150528480C26B23B54A3E /* Pods-JetDevsHomeWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetDevsHomeWork.debug.xcconfig"; path = "Target Support Files/Pods-JetDevsHomeWork/Pods-JetDevsHomeWork.debug.xcconfig"; sourceTree = "<group>"; };
+		DE7408222BBECB0B00DA2179 /* String+JetDevs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+JetDevs.swift"; sourceTree = "<group>"; };
+		DE7408242BBECD8000DA2179 /* UIViewController+JetDevs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+JetDevs.swift"; sourceTree = "<group>"; };
+		DEB38FC12BBEC41C00118E1C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DEB38FC22BBEC41C00118E1C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		DEB38FC52BBEC44300118E1C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DEB38FC72BBEC59500118E1C /* LoginFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormField.swift; sourceTree = "<group>"; };
+		DEBA53F32BBF20ED006CDF7C /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		DEBA53F52BBF243B006CDF7C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		DEBA53F72BBF28A9006CDF7C /* Date+JetDevs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+JetDevs.swift"; sourceTree = "<group>"; };
+		DEF8E2232BBEF92900B4A7B6 /* UIColor+JetDevs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+JetDevs.swift"; sourceTree = "<group>"; };
+		DEF8E2372BBF09C000B4A7B6 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		DEF8E23A2BBF0A0500B4A7B6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		DEF8E23C2BBF0B0F00B4A7B6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		E168756431AD9B671DACC28B /* Pods_JetDevsHomeWorkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetDevsHomeWorkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00AF71BC0DB1CFCDB921924 /* Pods_JetDevsHomeWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JetDevsHomeWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B560239606A0E97A233578 /* Pods-JetDevsHomeWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetDevsHomeWork.release.xcconfig"; path = "Target Support Files/Pods-JetDevsHomeWork/Pods-JetDevsHomeWork.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +190,7 @@
 		4E677BCC272B827F006E325E /* JetDevsHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				DEF8E2332BBF086A00B4A7B6 /* Core */,
 				4E677C12272B860A006E325E /* Common */,
 				4E677C08272B83E4006E325E /* Login */,
 				4E677C01272B8367006E325E /* Account */,
@@ -261,6 +288,7 @@
 		4E677C06272B83D5006E325E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DEBA53F52BBF243B006CDF7C /* AccountViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -285,6 +313,8 @@
 		4E677C09272B83EE006E325E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DEB38FC12BBEC41C00118E1C /* LoginViewController.swift */,
+				DEB38FC22BBEC41C00118E1C /* LoginViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -292,6 +322,7 @@
 		4E677C0A272B83F5006E325E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DEB38FC52BBEC44300118E1C /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -299,6 +330,7 @@
 		4E677C0B272B83FA006E325E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DEB38FC72BBEC59500118E1C /* LoginFormField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -348,7 +380,11 @@
 		4E677C4927323092006E325E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DEBA53F72BBF28A9006CDF7C /* Date+JetDevs.swift */,
+				DE7408222BBECB0B00DA2179 /* String+JetDevs.swift */,
+				DEF8E2232BBEF92900B4A7B6 /* UIColor+JetDevs.swift */,
 				4E677C4A273230A4006E325E /* UIFont */,
+				DE7408242BBECD8000DA2179 /* UIViewController+JetDevs.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -372,6 +408,49 @@
 				B3EC5ABA8B83EB7FC725CD65 /* Pods-JetDevsHomeWorkTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DEF8E2332BBF086A00B4A7B6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DEF8E2362BBF08CD00B4A7B6 /* Entities */,
+				DEF8E2342BBF087000B4A7B6 /* Network */,
+				DEF8E2352BBF089200B4A7B6 /* Repositories */,
+				DEF8E2392BBF09F300B4A7B6 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DEF8E2342BBF087000B4A7B6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DEF8E2352BBF089200B4A7B6 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				DEF8E2372BBF09C000B4A7B6 /* AuthRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		DEF8E2362BBF08CD00B4A7B6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DEF8E23C2BBF0B0F00B4A7B6 /* UserModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DEF8E2392BBF09F300B4A7B6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DEF8E23A2BBF0A0500B4A7B6 /* AuthService.swift */,
+				DEBA53F32BBF20ED006CDF7C /* UserService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		F06A01B79BA78652B8652EA7 /* Frameworks */ = {
@@ -501,6 +580,7 @@
 				4E677C3927322FA4006E325E /* Lato-Medium.ttf in Resources */,
 				4E677C3D27322FA4006E325E /* Lato-HeavyItalic.ttf in Resources */,
 				4E677C4127322FA4006E325E /* Lato-MediumItalic.ttf in Resources */,
+				DEB38FC42BBEC41C00118E1C /* LoginViewController.xib in Resources */,
 				4E677BD7272B8282006E325E /* Assets.xcassets in Resources */,
 				4E677C4327322FA4006E325E /* Lato-Bold.ttf in Resources */,
 				4E677C19272B88A6006E325E /* HomeViewController.xib in Resources */,
@@ -662,11 +742,23 @@
 			files = (
 				4E677BFF272B8319006E325E /* BaseTabBarController.swift in Sources */,
 				4E677C10272B8455006E325E /* AccountViewController.swift in Sources */,
+				DEF8E2242BBEF92900B4A7B6 /* UIColor+JetDevs.swift in Sources */,
 				4E677BD2272B827F006E325E /* ViewController.swift in Sources */,
+				DEBA53F62BBF243B006CDF7C /* AccountViewModel.swift in Sources */,
 				4E677C4C273230E5006E325E /* UIFont+JetDevs.swift in Sources */,
+				DEB38FC32BBEC41C00118E1C /* LoginViewController.swift in Sources */,
+				DEBA53F42BBF20ED006CDF7C /* UserService.swift in Sources */,
 				4E677C15272B8650006E325E /* Constants.swift in Sources */,
+				DE7408252BBECD8000DA2179 /* UIViewController+JetDevs.swift in Sources */,
+				DE7408232BBECB0B00DA2179 /* String+JetDevs.swift in Sources */,
 				4E677BCE272B827F006E325E /* AppDelegate.swift in Sources */,
+				DEF8E23D2BBF0B0F00B4A7B6 /* UserModel.swift in Sources */,
 				4E677C18272B88A6006E325E /* HomeViewController.swift in Sources */,
+				DEF8E2382BBF09C000B4A7B6 /* AuthRepository.swift in Sources */,
+				DEBA53F82BBF28A9006CDF7C /* Date+JetDevs.swift in Sources */,
+				DEF8E23B2BBF0A0500B4A7B6 /* AuthService.swift in Sources */,
+				DEB38FC82BBEC59500118E1C /* LoginFormField.swift in Sources */,
+				DEB38FC62BBEC44300118E1C /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
