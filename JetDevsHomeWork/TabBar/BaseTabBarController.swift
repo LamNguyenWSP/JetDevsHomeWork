@@ -26,7 +26,7 @@ class BaseTabBarController: UITabBarController {
 		)
 		homeViewController.tabBarItem = homeItem
 		
-		let accountViewController = UINavigationController(rootViewController: AccountViewController())
+            let accountViewController = UINavigationController(rootViewController: AccountViewController.instantiateFromXib())
 		let accountItem = UITabBarItem(
 			title: "Profile",
 			image: UIImage(named: "icon_profile_default"),
